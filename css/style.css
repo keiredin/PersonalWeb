@@ -12,8 +12,17 @@ nav{
     background-image: url('images/backgrounds/bg2.jpg');
 }
 
-.container{
-    padding: 40px;
+.belowNav{
+    padding: 60px;
+}
+
+.imageContainer {
+    padding: 0px;
+    margin-bottom: 60px;
+    
+}
+.imageContainer img{
+    padding: 5px;
 }
 
 .container .row2{
@@ -24,4 +33,6 @@ nav{
     min-width: 100%;
     min-height: 100%;
   }
+
+  
 
