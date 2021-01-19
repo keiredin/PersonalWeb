@@ -1,20 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@1&display=swap');
+
+body footer a{
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 3rem;
+}
+
 nav{
+    font-family: 'Coda Caption', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    
+    z-index: 10;
+}
+
+nav h1{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+
+.blogbody{
+    padding-top: 120px;
+}
+.blogs time , .readmore, h5{
+    font-style: italic;
+    font-family: 'Bodoni Moda', serif;
+}
+.blogs p{
+    
+    letter-spacing: .03em;
+    font-style: italic;
+
+}
+
+time , .readmore{
     text-transform: uppercase;
     font-weight: bold;
 }
 
-#advice h3{
-    padding: 10px 1px;
-    
-}
-#advice{
-    background-color: rgba(248, 235, 219, 0.918);
-    background-image: url('images/backgrounds/bg2.jpg');
-}
-
-.belowNav{
-    padding: 60px;
-}
+/* style gallery page */
 
 .imageContainer {
     padding: 0px;
@@ -29,8 +61,19 @@ nav{
     padding: 40px;
 }
 
-  
-.index{
+
+/* style motivation page*/
+
+.myvideo-container video{
+    width: 100%;
+    height: 300px;
+}
+
+
+ 
+
+  /* to style background video */
+  .auter-video-container{
     position: fixed;
     right: 0;
     left: 0;
@@ -50,18 +93,16 @@ nav{
       left: 0;
       object-fit: cover;
       width: 100%;
-      height: 200%;
+      
       
   }
-  video{
-    min-width: 100%;
-    min-height: 100%;
-}
+  .video-container video{
+   
+        min-width: 100%;
+        min-height: 100%;
+    
+  }
 
-nav{
-    z-index: 10;
-}
-  
 
   
 
